@@ -1,7 +1,7 @@
 # Microbiome-BLAST
 Script to validate OTUs identified by Kraken2 by BLAST of assembled contigs
 
-Step 1: Select OTU at Genus level with > 100 reads (use krakentools with TaxID extracted from report)
+Step 1: Select OTU at Genus level with > 100 reads/hit identified by Kraken2 (use krakentools with TaxID extracted from report)
 
 Step 2: Normalize reads to target depth of 100 (use bbtools?)
 
